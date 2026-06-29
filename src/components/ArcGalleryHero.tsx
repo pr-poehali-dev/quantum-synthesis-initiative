@@ -52,6 +52,11 @@ const ArcGalleryHero = ({
 
   return (
     <section className={`relative overflow-hidden bg-background min-h-screen flex flex-col ${className}`}>
+      <header className="absolute top-0 left-0 right-0 z-20 flex items-center justify-center py-6 px-8">
+        <span className="text-2xl sm:text-3xl font-bold tracking-[0.25em] uppercase text-foreground">
+          GAGIC
+        </span>
+      </header>
       <div
         className="relative mx-auto"
         style={{
