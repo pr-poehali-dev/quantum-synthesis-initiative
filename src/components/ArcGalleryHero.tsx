@@ -52,10 +52,13 @@ const ArcGalleryHero = ({
 
   return (
     <section className={`relative overflow-hidden bg-background min-h-screen flex flex-col ${className}`}>
-      <header className="absolute top-0 left-0 right-0 z-20 flex items-center justify-center py-6 px-8">
-        <span className="text-4xl sm:text-5xl font-black tracking-[0.3em] uppercase text-foreground">
-          GAGIC
-        </span>
+      <header className="absolute top-0 left-0 right-0 z-20 flex items-center justify-center py-4 px-8">
+        <img
+          src="https://cdn.poehali.dev/projects/6f065cd9-e88b-4e42-b9b2-f5f3c9fa0f1e/bucket/f4bb9139-3049-402c-bc73-6328b158a0ee.png"
+          alt="GAGIC"
+          className="w-24 h-24 sm:w-28 sm:h-28 object-contain"
+          draggable={false}
+        />
       </header>
       <div
         className="relative mx-auto"
