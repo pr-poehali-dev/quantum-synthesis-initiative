@@ -104,7 +104,7 @@ const ArcGalleryHero = ({
       </div>
 
       <div className="relative z-10 flex-1 flex items-center justify-center px-6 -mt-40 md:-mt-52 lg:-mt-64">
-        <div className="text-center max-w-2xl px-6 opacity-0 animate-fade-in" style={{ animationDelay: '800ms', animationFillMode: 'forwards' }}>
+        <div className="text-center max-w-sm px-6 opacity-0 animate-fade-in" style={{ animationDelay: '800ms', animationFillMode: 'forwards' }}>
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-foreground">
             Обувь ручной работы для тех, кто любит себя
           </h1>
